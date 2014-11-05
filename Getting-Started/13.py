@@ -11,3 +11,9 @@ print istrcmp('python', 'Python')
 print istrcmp('LaTex', 'Latex')
 print istrcmp('a', 'b')
 
+"""
+Output:
+True
+True
+False
+"""
