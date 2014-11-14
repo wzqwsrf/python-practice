@@ -1,5 +1,11 @@
+# !/usr/bin/env python
+# -*- coding: utf-8 -*-
+#  Author: Wangzhenqing <wangzhenqing1008@163.com>
+
 """
-Problem 8: Cumulative sum of a list [a, b, c, ...] is defined as [a, a+b, a+b+c, ...]. Write a function cumulative_sum to compute cumulative sum of a list. Does your implementation work for a list of strings?
+Problem 8: Cumulative sum of a list [a, b, c, ...] is defined as [a, a+b, a+b+c, ...].
+Write a function cumulative_sum to compute cumulative sum of a list.
+Does your implementation work for a list of strings?
 """
 
 def cumulative_sum(input_list):

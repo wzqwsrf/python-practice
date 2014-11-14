@@ -1,3 +1,7 @@
+# !/usr/bin/env python
+# -*- coding: utf-8 -*-
+#  Author: Wangzhenqing <wangzhenqing1008@163.com>
+
 """
 Problem 4: What will be output of the following program.
 """

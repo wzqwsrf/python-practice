@@ -1,4 +1,7 @@
+# !/usr/bin/env python
 # -*- coding: utf-8 -*-
+#  Author: Wangzhenqing <wangzhenqing1008@163.com>
+
 """
 Problem 15: What will be output of the following program?
 """
@@ -6,6 +9,7 @@ Problem 15: What will be output of the following program?
 x = 4
 y = 5
 p = x < y and x < z
+
 print p
 
 """

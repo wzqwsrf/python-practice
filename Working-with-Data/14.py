@@ -1,5 +1,11 @@
+# !/usr/bin/env python
+# -*- coding: utf-8 -*-
+#  Author: Wangzhenqing <wangzhenqing1008@163.com>
+
 """
-Problem 14: Improve the unique function written in previous problems to take an optional key function as argument and use the return value of the key function to check for uniqueness.
+Problem 14: Improve the unique function written in previous problems to
+take an optional key function as argument and use the return value
+of the key function to check for uniqueness.
 """
 
 def unique(nums, key):

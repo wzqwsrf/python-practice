@@ -1,7 +1,11 @@
+# !/usr/bin/env python
 # -*- coding: utf-8 -*-
+#  Author: Wangzhenqing <wangzhenqing1008@163.com>
+
 """
 Problem 9: What will be the output of the following program?
 """
+
 x = 1
 def f():
     x = 2

@@ -1,4 +1,7 @@
+# !/usr/bin/env python
 # -*- coding: utf-8 -*-
+#  Author: Wangzhenqing <wangzhenqing1008@163.com>
+
 """
 Problem 19: Write a program add.py that takes 2 numbers as command line arguments and prints its sum.
 """

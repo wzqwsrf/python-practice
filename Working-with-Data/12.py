@@ -1,5 +1,10 @@
+# !/usr/bin/env python
+# -*- coding: utf-8 -*-
+#  Author: Wangzhenqing <wangzhenqing1008@163.com>
+
 """
-Problem 12: Write a function group(list, size) that take a list and splits into smaller lists of given size.
+Problem 12: Write a function group(list, size) that take a list
+and splits into smaller lists of given size.
 """
 
 def group(nums, size):

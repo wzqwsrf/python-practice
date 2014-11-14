@@ -1,6 +1,12 @@
+# !/usr/bin/env python
+# -*- coding: utf-8 -*-
+#  Author: Wangzhenqing <wangzhenqing1008@163.com>
+
 """
-Problem 7: How many multiplications are performed when each of the following lines of code is executed?
+Problem 7: How many multiplications are performed when
+each of the following lines of code is executed?
 """
+
 def square(x):
     return x * x
 

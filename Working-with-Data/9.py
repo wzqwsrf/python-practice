@@ -1,5 +1,10 @@
+# !/usr/bin/env python
+# -*- coding: utf-8 -*-
+#  Author: Wangzhenqing <wangzhenqing1008@163.com>
+
 """
-Problem 9: Write a function cumulative_product to compute cumulative product of a list of numbers.
+Problem 9: Write a function cumulative_product to compute
+cumulative product of a list of numbers.
 """
 
 def cumulative_product(input_list):
