@@ -1,6 +1,6 @@
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
-#  Author: Wangzhenqing <wangzhenqing1008@163.com>
+# Author: Wangzhenqing <wangzhenqing1008@163.com>
 
 """
 Problem 16: Write a function extsort to sort a list of files based on extension.

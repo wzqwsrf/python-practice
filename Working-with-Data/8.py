@@ -1,6 +1,6 @@
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
-#  Author: Wangzhenqing <wangzhenqing1008@163.com>
+# Author: Wangzhenqing <wangzhenqing1008@163.com>
 
 """
 Problem 8: Cumulative sum of a list [a, b, c, ...] is defined as [a, a+b, a+b+c, ...].

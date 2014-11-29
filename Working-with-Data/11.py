@@ -1,6 +1,6 @@
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
-#  Author: Wangzhenqing <wangzhenqing1008@163.com>
+# Author: Wangzhenqing <wangzhenqing1008@163.com>
 
 """
 Problem 11: Write a function dups to find all duplicates in the list.

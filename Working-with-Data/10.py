@@ -1,6 +1,6 @@
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
-#  Author: Wangzhenqing <wangzhenqing1008@163.com>
+# Author: Wangzhenqing <wangzhenqing1008@163.com>
 
 """
 Problem 10: Write a function unique to find all the unique elements of a list.

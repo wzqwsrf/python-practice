@@ -1,6 +1,6 @@
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
-#  Author: Wangzhenqing <wangzhenqing1008@163.com>
+# Author: Wangzhenqing <wangzhenqing1008@163.com>
 
 """
 Problem 7: Python has built-in functions min and max to compute minimum
