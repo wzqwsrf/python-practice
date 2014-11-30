@@ -1,7 +1,7 @@
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
 # Author: Wangzhenqing <wangzhenqing1008@163.com>
-# Date: 2014年11月29日23:55:25
+# Date: 2014年11月30日23:16:39
 
 """
 Problem 22: The above wrap program is not so nice
@@ -18,11 +18,26 @@ def wordwrap():
     f_len = int(sys.argv[2])
     lines = open(file_name).readlines()
     for line in lines:
-        s_len = len(line)
         line = line.replace('\n', '')
+        s_len = len(line)
+        line_msg = line.split(' ')
+        e_len = len(line_msg)
         if s_len > f_len:
-            for i in range(0, s_len, f_len):
-                print line[i:(i + f_len)]
+            dic = {}
+            for i in range(e_len):
+                dic[i] = line_msg[i]
+            i_len = 0
+            in_line = ''
+            for i in range(e_len):
+                t_len = i_len + len(dic[i])
+                if t_len > f_len:
+                    print in_line
+                    i_len = 0
+                    in_line = ''
+                i_len += len(dic[i]) + 1
+                in_line += (dic[i] + ' ')
+                if i == e_len - 1:
+                    print in_line
         else:
             print line
 
@@ -39,13 +54,13 @@ I'm sure that the shells are seashore shells.
 
 Output:
 $ python 21.py she.txt 30
-She sells seashells on the sea
-shore;
+She sells seashells on the
+seashore;
 The shells that she sells are
 seashells I'm sure.
-So if she sells seashells on t
-he seashore,
-I'm sure that the shells are s
-eashore shells.
+So if she sells seashells on
+the seashore,
+I'm sure that the shells are
+seashore shells.
 
 """

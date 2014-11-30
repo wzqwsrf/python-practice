@@ -16,8 +16,8 @@ def wrap():
     f_len = int(sys.argv[2])
     lines = open(file_name).readlines()
     for line in lines:
-        s_len = len(line)
         line = line.replace('\n', '')
+        s_len = len(line)
         if s_len > f_len:
             for i in range(0, s_len, f_len):
                 print line[i:(i + f_len)]
