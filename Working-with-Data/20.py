@@ -15,12 +15,14 @@ import sys
 def grep():
     file_name = sys.argv[1]
     in_str = sys.argv[2]
-    lines = open(file_name).readlines()
+    real_file = open(file_name)
+    lines = real_file.readlines()
     for line in lines:
         line = line.replace('\n', '')
         if in_str not in line:
             continue
         print line
+    real_file.close()
 
 grep()
 

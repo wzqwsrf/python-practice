@@ -12,7 +12,8 @@ import sys
 
 def center_align():
     file_name = sys.argv[1]
-    lines = open(file_name).readlines()
+    real_file = open(file_name)
+    lines = real_file.readlines()
     max_len = max([len(line) for line in lines])
     for line in lines:
         line = line.replace('\n', '')
@@ -29,6 +30,7 @@ def center_align():
                 print space + line + space + ' '
         else:
             print line
+    real_file.close()
 
 
 center_align()

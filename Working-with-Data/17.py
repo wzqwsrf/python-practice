@@ -12,11 +12,14 @@ import sys
 
 def reverse():
     file_name = sys.argv[1]
-    lines = open(file_name).readlines()
+    real_file = open(file_name)
+    lines = real_file.readlines()
     lines.reverse()
     for line in lines:
         line = line.replace('\n', '')
         print line
+    real_file.close()
+
 
 reverse()
 

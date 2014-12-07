@@ -16,7 +16,8 @@ import sys
 def wordwrap():
     file_name = sys.argv[1]
     f_len = int(sys.argv[2])
-    lines = open(file_name).readlines()
+    real_file = open(file_name)
+    lines = real_file.readlines()
     for line in lines:
         line = line.replace('\n', '')
         s_len = len(line)
@@ -40,6 +41,7 @@ def wordwrap():
                     print in_line
         else:
             print line
+    real_file.close()
 
 
 wordwrap()
