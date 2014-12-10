@@ -1,1 +1,1 @@
-<div><span style="font-family: 'Microsoft Yahei';">http://anandology.com/python-practice-book/getting-started.html#assignments</span></div><div><span style="font-family: 'Microsoft Yahei';">python 学习网站</span></div><div><br /></div>
+<div><span style="font-family: 'Microsoft Yahei';">http://anandology.com/python-practice-book/index.html</span></div><div><span style="font-family: 'Microsoft Yahei';">python 学习网站</span></div><div><br /></div>
