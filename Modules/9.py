@@ -1,7 +1,7 @@
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
 # Author: Wangzhenqing <wangzhenqing1008@163.com>
-# Date: 2014年12月14日15:48:01
+# Date: 2014年12月14日16:10:12
 
 """
 Problem 9: Write a regular expression to validate a phone number.
