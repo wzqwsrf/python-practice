@@ -16,18 +16,22 @@ import inspect
 def mydoc():
     module_name = sys.argv[1]
     module_name = __import__(module_name)
-    print module_name.__doc__
-    f_list = dir(module_name)
-    print f_list
-    for f in f_list:
-        if inspect.isfunction(f) is not False:
-            print f
+    help(module_name)
 
 mydoc()
 
 """
 Output
-foo.zip
-9.py
-10.py
+$ python 12.py os
+Help on module os:
+
+DESCRIPTION
+
+os - OS routines for Mac, NT, or Posix depending on what system we're on.
+...
+
+FUNCTIONS
+
+getcwd()
+    ...
 """

@@ -28,6 +28,7 @@ zip_new()
 
 """
 Output
+$ python 11.py foo.zip 9.py 10.py
 foo.zip
 9.py
 10.py
