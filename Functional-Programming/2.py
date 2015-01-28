@@ -16,14 +16,14 @@ def flatten_dict(b, a=None, result=None):
     """
     if result is None:
         result = {}
-    for k,v in b.items():
+    for k, v in b.items():
         if isinstance(v, dict):
             flatten_dict(v, k, result)
         else:
             if a is None:
                 result[k] = v
             else:
-                result[a+'.'+k] = v
+                result[a + '.' + k] = v
     return result
 
 

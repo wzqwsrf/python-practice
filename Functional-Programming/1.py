@@ -18,6 +18,7 @@ def product(x, y):
         return res;
     return -res;
 
+
 print product(2, 3)
 print product(55, -32)
 print product(100, -1)
