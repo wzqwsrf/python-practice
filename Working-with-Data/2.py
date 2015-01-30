@@ -6,6 +6,7 @@
 Problem 2: Python has a built-in function sum to find sum of all elements of a list.
 Provide an implementation for sum.
 """
+
 def sum(nums):
     all_sum = nums[0]
     nums = nums[1:]
