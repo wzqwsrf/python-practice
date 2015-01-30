@@ -9,7 +9,7 @@ Available coins are also passed as argument to the function.
 """
 
 
-def count_change(count, data, base=0, num=0):
+def count_change(count, data):
     """
     >>> count_change(10, [1, 5])
     3
@@ -18,21 +18,22 @@ def count_change(count, data, base=0, num=0):
     >>> count_change(100, [1, 5, 10, 25, 50])
     292
     """
-    if count == 0:
-        return num+1
-    count_change[n,j-1] + f[n-v[j],j]
+    dp = []
+    x = 0
+    while x <= count:
+        dp.append(0)
+        x += 1
+    dp[0] = 1
+    for i in range(len(data)):
+        for j in range(data[i], count + 1):
+            dp[j] += dp[j - data[i]]
+    return dp[count]
 
 
 print count_change(10, [1, 5])
+
 """
 Output
-类似这样的格式
-foo/
-|-- a.txt
-|-- b.txt
-|-- bar/
-|   |-- p.txt
-|   `-- q.txt
-`-- c.txt
+3
 """
 
